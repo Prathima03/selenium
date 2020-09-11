@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/Ravi/MavenAuto">
+        <classes>
+            <class name="com.bitsai.testcases.CreateAccountTest">
+                <methods>
+                    <include name="createAccount"/>
+                </methods>
+            </class>
+            <class name="com.bitsai.testcases.LoginPageTest">
+                <methods>
+                    <include name="loginPageTitleTest"/>
+                    <include name="logoTest"/>
+                    <include name="navPageSignin"/>
+                    <include name="logintest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [All Test Suite]">
+  <test thread-count="5" name="C:/Users/Ravi/MavenAuto(failed)">
+    <classes>
+      <class name="com.bitsai.testcases.LoginPageTest">
+        <methods>
+          <include name="logintest"/>
+          <include name="tearDown"/>
+          <include name="logoTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.bitsai.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- C:/Users/Ravi/MavenAuto(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->
